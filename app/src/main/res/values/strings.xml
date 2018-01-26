@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="action_settings">Settings</string>
+    <string name="kozlovski_vladislav">Kozlovski Vladislav</string>
+    <string name="kvlad81">KVlad81</string>
+    <string name="myphoto">MyPhoto</string>
 </resources>

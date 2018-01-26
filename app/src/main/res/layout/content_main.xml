@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.vlad81.myapplication.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
     tools:showIn="@layout/activity_main">
 
     <android.support.constraint.Guideline
@@ -23,32 +24,39 @@
         app:layout_constraintGuide_begin="20dp" />
 
     <LinearLayout
-        android:layout_width="385dp"
-        android:layout_height="526dp"
+        android:layout_width="367dp"
+        android:layout_height="492dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="-23dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="match_parent"
             android:layout_height="157dp"
             android:layout_weight="1"
+            android:contentDescription="@string/myphoto"
             app:srcCompat="@drawable/oooo" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="7dp"
             android:layout_weight="0.2"
-            android:text="Kozlovski Vladislav"
+            android:text="@string/kozlovski_vladislav"
             android:textAlignment="center"
             android:textSize="24sp" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="23dp"
             android:layout_weight="1"
-            android:text="KVlad81"
+            android:text="@string/kvlad81"
             android:textAlignment="center"
             android:textSize="18sp" />
     </LinearLayout>
